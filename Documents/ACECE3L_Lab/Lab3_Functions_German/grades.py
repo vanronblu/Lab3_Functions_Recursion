@@ -24,4 +24,3 @@ def generate_remark(grade):
         "F": "Failing Status"
     }
     return remarks.get(grade, "Invalid Grade")
-
